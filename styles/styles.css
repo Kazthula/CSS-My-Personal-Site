@@ -1,0 +1,138 @@
+body{
+  margin: 0;
+}
+
+/*Section*/
+.top-container{
+  background-color: #FFF5E4;
+}
+.middle-container{
+  padding: 100px 0;
+  text-align: center;
+  background-color: #FFC4C4;
+}
+.bottom-container{
+  padding: 50px 0;
+  text-align: center;
+  background-color: #850E35;
+}
+
+
+
+/*Extra*/
+.pro{
+  text-decoration: line-through;
+}
+
+.mul{
+  text-decoration: underline;
+}
+
+.profile{
+  margin: auto;
+  width: 30%;
+}
+
+hr{
+  border-style: solid none none none;
+  border-width: 8px;
+  width: 25%;
+  margin: 50px auto;
+  color: #850E35;
+
+}
+
+/*Mga H*/
+
+h1{
+  padding-top: 2px;
+  font-family: cursive;
+  font-size: 40px;
+}
+
+h2{
+  font-family: fantasy;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+h3{
+  font-family: fantasy;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+p{
+  font-family: curive;
+  line-height: 2;
+}
+
+.skill-row{
+  margin: 120px auto;
+  text-align: justify;
+  width: 50%;
+}
+
+.microphone-img{
+  float: left;
+  width: 23%;
+  margin-right: 50px
+}
+
+.leadership-img{
+  float: right;
+  width: 23%;
+  margin-left: 50px;
+}
+
+
+.contact{
+  width: 20%;
+  margin: auto auto 50px auto;
+}
+
+
+.btn {
+   background: #FFF5E4;
+   background-image: -webkit-linear-gradient(top, #FFF5E4, #FFC4C4);
+   background-image: -moz-linear-gradient(top, #FFF5E4, #FFC4C4);
+   background-image: -ms-linear-gradient(top, #FFF5E4, #FFC4C4);
+   background-image: -o-linear-gradient(top, #FFF5E4, #FFC4C4);
+   background-image: -webkit-gradient(to bottom, #FFF5E4, #FFC4C4);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #850E35;
+   font-family: Garamond;
+   font-size: 15px;
+   font-weight: 100;
+   padding: 15px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #FFC4C4 1px;
+   background: #FFF5E4;
+   background-image: -webkit-linear-gradient(top, #FFF5E4, #FFFFFF);
+   background-image: -moz-linear-gradient(top, #FFF5E4, #FFFFFF);
+   background-image: -ms-linear-gradient(top, #FFF5E4, #FFFFFF);
+   background-image: -o-linear-gradient(top, #FFF5E4, #FFFFFF);
+   background-image: -webkit-gradient(to bottom, #FFF5E4, #FFFFFF);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.footer-link{
+  margin: 0 30px;
+  text-align: center;
+  color: blue;
+}
+
+.footer-link:hover{
+  color:white;
+}
